@@ -1,7 +1,7 @@
 {
   "name": "kessbot",
   "version": "0.5.0",
-  "description": "Bot for a random guy with like 80 subs",
+  "description": "Bot for a random guy with like 100 subs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
