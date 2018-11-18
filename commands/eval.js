@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
     if(typeof evaled !== "string")
     evaled = require("util").inspect(evaled);
 
-  message.channel.send("x1", (evaled));
+  message.channel.send(evaled);
 
 } catch(err) {
   message.channel.send(`\`Error\` \`\`\`x1\n${(err)}\n\`\`\``);
